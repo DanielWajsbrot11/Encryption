@@ -37,7 +37,7 @@ def main():
     with open('ciphertext.txt', 'w') as f:
         f.write(formatted_ciphertext1)
         
-    with open('7957_ciphertext2.txt', 'w') as f:
+    with open('ciphertext2.txt', 'w') as f:
         f.write(formatted_ciphertext2)
 
     print("Program successfully encrypted the texts and saved the output.")
